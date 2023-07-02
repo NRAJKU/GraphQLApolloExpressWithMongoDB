@@ -1,8 +1,8 @@
-const { postPhotos } = require("./mutations/photoMutations")
-const { allPhotos, totalPhotos } = require("./queries/photoQueries")
-const { photoTypeResolver } = require("./resolvers/photoResolver")
-const { userTypeResolver } = require("./resolvers/userResolver")
-const { dateTimeTypeResolver } = require("./resolvers/dateTimeResolver")
+const {postPhotos} = require("./mutations/photoMutations")
+const {allPhotos, totalPhotos} = require("./queries/photoQueries")
+const {photoTypeResolver} = require("./resolvers/photoResolver")
+const {userTypeResolver} = require("./resolvers/userResolver")
+const {dateTimeTypeResolver} = require("./resolvers/dateTimeResolver")
 
 let _id = 0
 

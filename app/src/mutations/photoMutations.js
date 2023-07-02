@@ -1,6 +1,6 @@
 const {photos} = require("../store/fileBasedDataStorage");
 
-let _id= 0;
+let _id = 0;
 
 module.exports.postPhotos = (parent, args) => {
     let newPhoto = {
